@@ -1,0 +1,29 @@
+PODS:
+  - FBRetainCycleDetector (0.1.4)
+  - Masonry (1.1.0)
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
+  - WDProjectConfig (2.0.1)
+
+DEPENDENCIES:
+  - FBRetainCycleDetector
+  - Masonry
+  - MLeaksFinder
+  - WDProjectConfig
+
+SPEC REPOS:
+  trunk:
+    - FBRetainCycleDetector
+    - Masonry
+    - MLeaksFinder
+    - WDProjectConfig
+
+SPEC CHECKSUMS:
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
+  WDProjectConfig: 69f9d6dd38523142ffa97901deeef1df714bed54
+
+PODFILE CHECKSUM: 7f260f57d93235ca312a04cbf820e436ba5f7d5e
+
+COCOAPODS: 1.9.1

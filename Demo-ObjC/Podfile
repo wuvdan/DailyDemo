@@ -1,0 +1,11 @@
+
+target 'Demo-ObjC' do
+  
+  pod 'Masonry'
+  
+  pod 'WDProjectConfig'
+
+  # 工具
+  pod 'MLeaksFinder'
+  pod 'FBRetainCycleDetector'
+end
