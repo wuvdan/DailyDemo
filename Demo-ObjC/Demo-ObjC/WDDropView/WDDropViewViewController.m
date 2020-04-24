@@ -25,6 +25,17 @@
     [self.view addSubview:self.dropView];
     
     [self.view addSubview:self.tableView];
+    
+    [self.dropView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.leading.trailing.mas_equalTo(0);
+        make.top.mas_equalTo(kSafeAreaTopHeight);
+        make.height.mas_equalTo(45);
+    }];
+    
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.leading.bottom.trailing.mas_equalTo(0);
+        make.top.mas_equalTo(self.dropView.mas_bottom).mas_offset(10);
+    }];
 }
 
 #pragma mark - LZDropViewDataSource
@@ -53,20 +64,5 @@
 
 - (void)dropView:(WDDropView *)dropView didSelectAtColumn:(NSInteger)column info:(NSString *)info {
     NSLog(@"%ld---%@", column, info);
-}
-
-
-- (void)viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
-    [self.dropView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.leading.trailing.mas_equalTo(0);
-        make.top.mas_equalTo(kSafeAreaTopHeight);
-        make.height.mas_equalTo(45);
-    }];
-    
-    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.leading.bottom.trailing.mas_equalTo(0);
-        make.top.mas_equalTo(self.dropView.mas_bottom).mas_offset(10);
-    }];
 }
 @end

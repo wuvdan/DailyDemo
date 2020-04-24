@@ -55,10 +55,6 @@
     self.stackView.axis = UILayoutConstraintAxisVertical;
     self.stackView.alignment = UIStackViewAlignmentFill;
     [self.view addSubview:self.stackView];
-}
-
-- (void)viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
     
     [self.stackView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.mas_equalTo(0);

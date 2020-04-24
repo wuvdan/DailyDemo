@@ -33,7 +33,6 @@
         make.centerX.mas_equalTo(self.view);
         make.top.mas_equalTo(kSafeAreaTopHeight + 15);
         make.width.mas_equalTo(300);
-
     }];
     self.button = button;
     

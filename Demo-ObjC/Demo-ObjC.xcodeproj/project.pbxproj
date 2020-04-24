@@ -14,7 +14,6 @@
 		4804058E2452B1360099683B /* WDComboBoxControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4804058D2452B1360099683B /* WDComboBoxControl.m */; };
 		480405922452B2EF0099683B /* WDDropViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480405912452B2EF0099683B /* WDDropViewViewController.m */; };
 		480405962452B3040099683B /* WDDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 480405952452B3040099683B /* WDDropView.m */; };
-		4804059A2452B4940099683B /* WDDropViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480405992452B4930099683B /* WDDropViewTestViewController.m */; };
 		4804059D2452BDD00099683B /* WDDropViewTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4804059C2452BDD00099683B /* WDDropViewTestView.m */; };
 		4887C2212451713300355427 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4887C2202451713300355427 /* AppDelegate.m */; };
 		4887C2272451713300355427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4887C2252451713300355427 /* Main.storyboard */; };
@@ -46,8 +45,6 @@
 		480405912452B2EF0099683B /* WDDropViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDDropViewViewController.m; sourceTree = "<group>"; };
 		480405942452B3040099683B /* WDDropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDDropView.h; sourceTree = "<group>"; };
 		480405952452B3040099683B /* WDDropView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDDropView.m; sourceTree = "<group>"; };
-		480405982452B4930099683B /* WDDropViewTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDDropViewTestViewController.h; sourceTree = "<group>"; };
-		480405992452B4930099683B /* WDDropViewTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDDropViewTestViewController.m; sourceTree = "<group>"; };
 		4804059B2452BDD00099683B /* WDDropViewTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDDropViewTestView.h; sourceTree = "<group>"; };
 		4804059C2452BDD00099683B /* WDDropViewTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDDropViewTestView.m; sourceTree = "<group>"; };
 		4887C21C2451713300355427 /* Demo-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,8 +164,6 @@
 			children = (
 				480405902452B2EF0099683B /* WDDropViewViewController.h */,
 				480405912452B2EF0099683B /* WDDropViewViewController.m */,
-				480405982452B4930099683B /* WDDropViewTestViewController.h */,
-				480405992452B4930099683B /* WDDropViewTestViewController.m */,
 				4804059B2452BDD00099683B /* WDDropViewTestView.h */,
 				4804059C2452BDD00099683B /* WDDropViewTestView.m */,
 				480405972452B3970099683B /* Classes */,
@@ -353,7 +348,6 @@
 				48E6D222245185F2006A8AB8 /* WDPopMenu.m in Sources */,
 				4887C25A2451718C00355427 /* HomeViewController.m in Sources */,
 				4804057E24527D240099683B /* WDPopMenuShowViewController.m in Sources */,
-				4804059A2452B4940099683B /* WDDropViewTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -36,10 +36,6 @@
     self.centerButton = [self createButton];
     self.leftBottomButton = [self createButton];
     self.rightBottomButton = [self createButton];
-}
-
-- (void)viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
     
     [self.leftTopButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.mas_equalTo(15);

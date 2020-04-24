@@ -25,10 +25,6 @@
     self.title = @"日常-案例";
     self.titleArray = @[@"PopMenu - 弹窗菜单", @"AlterSheetView - 底部弹窗", @"ComboBoxControl - 分类展开", @"DropView - 下拉分类"];
     [self.view addSubview:self.tableView];
-}
-
-- (void)viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
     self.tableView.frame = self.view.bounds;
 }
 

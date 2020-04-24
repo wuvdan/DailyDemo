@@ -15,6 +15,7 @@ NSString *kDropViewNotificationName = @"com.notification.name.WDDropView";
 @property (nonatomic, strong) NSArray<UIView *> *viewArray;
 @property (nonatomic, strong) NSArray<NSString *> *titleArray;
 @property (nonatomic, strong) UIButton *containerView;
+@property (nonatomic, strong) UIView *backView;
 @property (nonatomic, strong) NSArray<NSNumber *> *controllerHeightArray;
 @property (nonatomic, strong) NSMutableArray<UIButton *> *buttonArray;
 @property (nonatomic, assign) NSUInteger currentButtonTag;
@@ -160,7 +161,7 @@ NSString *kDropViewNotificationName = @"com.notification.name.WDDropView";
 
 #pragma mark - Getter
 
-- (UIView *)containerView {
+- (UIButton *)containerView {
     if (!_containerView) {
         _containerView = [[UIButton alloc] init];
         [_containerView addTarget:self action:@selector(backButtonTouched:) forControlEvents:UIControlEventTouchUpInside];
