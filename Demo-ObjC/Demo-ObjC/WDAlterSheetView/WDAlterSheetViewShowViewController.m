@@ -21,7 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.title = @"AlterSheetView -  底部弹窗";
+
     
     self.button1 = [[UIButton alloc] init];
     [self.button1 setTitle:@"样式一" forState:UIControlStateNormal];

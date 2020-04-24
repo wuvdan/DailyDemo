@@ -33,10 +33,10 @@
 @implementation UIFont (WDExtra)
 
 + (void)load {
-    [self swizzleClassMethod:@selector(systemFontOfSize:) with:@selector(wd_systemFontOfSize:)];
-    [self swizzleClassMethod:@selector(boldSystemFontOfSize:) with:@selector(wd_boldSystemFontOfSize:)];
-    [self swizzleClassMethod:@selector(fontWithName:size:) with:@selector(wd_fontWithName:size:)];
-    [self swizzleClassMethod:@selector(italicSystemFontOfSize:) with:@selector(wd_italicSystemFontOfSize:)];
+//    [self swizzleClassMethod:@selector(systemFontOfSize:) with:@selector(wd_systemFontOfSize:)];
+//    [self swizzleClassMethod:@selector(boldSystemFontOfSize:) with:@selector(wd_boldSystemFontOfSize:)];
+//    [self swizzleClassMethod:@selector(fontWithName:size:) with:@selector(wd_fontWithName:size:)];
+//    [self swizzleClassMethod:@selector(italicSystemFontOfSize:) with:@selector(wd_italicSystemFontOfSize:)];
 }
 
 + (UIFont *)wd_systemFontOfSize:(CGFloat)pxSize {

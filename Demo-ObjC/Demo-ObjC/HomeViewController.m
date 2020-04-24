@@ -10,6 +10,9 @@
 
 #import "WDPopMenuShowViewController.h"
 #import "WDAlterSheetViewShowViewController.h"
+#import "WDComboBoxControlViewController.h"
+#import "WDDropViewViewController.h"
+
 
 @interface HomeViewController ()
 @property (nonatomic, copy) NSArray<NSString *> *titleArray;
@@ -20,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"日常-案例";
-    self.titleArray = @[@"2020年04月24日 - PopMenu", @"2020年04月24日 - AlterSheetView"];
+    self.titleArray = @[@"PopMenu - 弹窗菜单", @"AlterSheetView - 底部弹窗", @"ComboBoxControl - 分类展开", @"DropView - 下拉分类"];
     [self.view addSubview:self.tableView];
 }
 
@@ -54,6 +57,18 @@
         case 1:
         {
             WDAlterSheetViewShowViewController *vc = [[WDAlterSheetViewShowViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 2:
+        {
+            WDComboBoxControlViewController *vc = [[WDComboBoxControlViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 3:
+        {
+            WDDropViewViewController *vc = [[WDDropViewViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
