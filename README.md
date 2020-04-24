@@ -3,7 +3,7 @@
 ### 2020年04月24日
 - PopMenu
 类似微信，QQ，钉钉，右上角展开的弹窗
-![PopMenu]("https://github.com/wuvdan/DailyDemo/blob/master/Pic/PopMenu")
+![](https://github.com/wuvdan/DailyDemo/blob/master/Pic/PopMenu)
 - AlterSheetView
 类似微信，钉钉的底部弹窗
-![AlterSheetView]("https://github.com/wuvdan/DailyDemo/blob/master/Pic/AlterSheetView.png")
+![](https://github.com/wuvdan/DailyDemo/blob/master/Pic/AlterSheetView.png)
