@@ -13,6 +13,8 @@
 #import "WDComboBoxControlViewController.h"
 #import "WDDropViewViewController.h"
 
+#import "WDConversationViewController.h"
+
 
 @interface HomeViewController ()
 @property (nonatomic, copy) NSArray<NSString *> *titleArray;
@@ -23,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"日常-案例";
-    self.titleArray = @[@"PopMenu - 弹窗菜单", @"AlterSheetView - 底部弹窗", @"ComboBoxControl - 分类展开", @"DropView - 下拉分类"];
+    self.titleArray = @[@"PopMenu - 弹窗菜单", @"AlterSheetView - 底部弹窗", @"ComboBoxControl - 分类展开", @"DropView - 下拉分类", @"聊天UI搭建"];
     [self.view addSubview:self.tableView];
     self.tableView.frame = self.view.bounds;
 }
@@ -65,6 +67,13 @@
         case 3:
         {
             WDDropViewViewController *vc = [[WDDropViewViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+            
+        case 4:
+        {
+            WDConversationViewController *vc = [[WDConversationViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;

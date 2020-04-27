@@ -23,6 +23,15 @@
 		4887C25A2451718C00355427 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4887C2562451718C00355427 /* HomeViewController.m */; };
 		4887C25B2451718C00355427 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4887C2572451718C00355427 /* NavigationController.m */; };
 		4887C25C2451718C00355427 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4887C2592451718C00355427 /* BaseViewController.m */; };
+		48B6DECE24551C1E00851C9E /* WDConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B6DECD24551C1E00851C9E /* WDConversationViewController.m */; };
+		48B6DED52455200900851C9E /* WDConversationMessageOrderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B6DED42455200900851C9E /* WDConversationMessageOrderView.m */; };
+		48B6DED8245528BD00851C9E /* WDConversationMessageTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B6DED7245528BD00851C9E /* WDConversationMessageTextCell.m */; };
+		48B6DEDB245528CC00851C9E /* WDConversationMessageImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B6DEDA245528CC00851C9E /* WDConversationMessageImageCell.m */; };
+		48B6DEDE245528D800851C9E /* WDConversationMessageOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B6DEDD245528D800851C9E /* WDConversationMessageOrderCell.m */; };
+		48B6DEE224552BC400851C9E /* WDConversationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B6DEE124552BC400851C9E /* WDConversationModel.m */; };
+		48B6DEE524553BE900851C9E /* WDConversationKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B6DEE424553BE900851C9E /* WDConversationKeyboardView.m */; };
+		48B6DEE8245557F600851C9E /* WDConversationBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B6DEE7245557F600851C9E /* WDConversationBoxViewController.m */; };
+		48B6DEEB24556DA000851C9E /* WDConversationKeyboardMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B6DEEA24556DA000851C9E /* WDConversationKeyboardMoreView.m */; };
 		48BC1BE82451721600235EA6 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BC1BE72451721600235EA6 /* BaseTableViewController.m */; };
 		48E6D222245185F2006A8AB8 /* WDPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E6D221245185F2006A8AB8 /* WDPopMenu.m */; };
 		AF316E608501440B47529FDA /* libPods-Demo-ObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FF37565706FFE98756B140 /* libPods-Demo-ObjC.a */; };
@@ -61,6 +70,25 @@
 		4887C2572451718C00355427 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		4887C2582451718C00355427 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		4887C2592451718C00355427 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		48B6DECC24551C1E00851C9E /* WDConversationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDConversationViewController.h; sourceTree = "<group>"; };
+		48B6DECD24551C1E00851C9E /* WDConversationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDConversationViewController.m; sourceTree = "<group>"; };
+		48B6DED32455200900851C9E /* WDConversationMessageOrderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDConversationMessageOrderView.h; sourceTree = "<group>"; };
+		48B6DED42455200900851C9E /* WDConversationMessageOrderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDConversationMessageOrderView.m; sourceTree = "<group>"; };
+		48B6DED6245528BD00851C9E /* WDConversationMessageTextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDConversationMessageTextCell.h; sourceTree = "<group>"; };
+		48B6DED7245528BD00851C9E /* WDConversationMessageTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDConversationMessageTextCell.m; sourceTree = "<group>"; };
+		48B6DED9245528CC00851C9E /* WDConversationMessageImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDConversationMessageImageCell.h; sourceTree = "<group>"; };
+		48B6DEDA245528CC00851C9E /* WDConversationMessageImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDConversationMessageImageCell.m; sourceTree = "<group>"; };
+		48B6DEDC245528D800851C9E /* WDConversationMessageOrderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDConversationMessageOrderCell.h; sourceTree = "<group>"; };
+		48B6DEDD245528D800851C9E /* WDConversationMessageOrderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDConversationMessageOrderCell.m; sourceTree = "<group>"; };
+		48B6DEDF2455293100851C9E /* WDConversationMessageConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDConversationMessageConstant.h; sourceTree = "<group>"; };
+		48B6DEE024552BC400851C9E /* WDConversationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDConversationModel.h; sourceTree = "<group>"; };
+		48B6DEE124552BC400851C9E /* WDConversationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDConversationModel.m; sourceTree = "<group>"; };
+		48B6DEE324553BE900851C9E /* WDConversationKeyboardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDConversationKeyboardView.h; sourceTree = "<group>"; };
+		48B6DEE424553BE900851C9E /* WDConversationKeyboardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDConversationKeyboardView.m; sourceTree = "<group>"; };
+		48B6DEE6245557F600851C9E /* WDConversationBoxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDConversationBoxViewController.h; sourceTree = "<group>"; };
+		48B6DEE7245557F600851C9E /* WDConversationBoxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDConversationBoxViewController.m; sourceTree = "<group>"; };
+		48B6DEE924556DA000851C9E /* WDConversationKeyboardMoreView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDConversationKeyboardMoreView.h; sourceTree = "<group>"; };
+		48B6DEEA24556DA000851C9E /* WDConversationKeyboardMoreView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDConversationKeyboardMoreView.m; sourceTree = "<group>"; };
 		48BC1BE62451721600235EA6 /* BaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
 		48BC1BE72451721600235EA6 /* BaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		48BC1BEA2451761800235EA6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -180,6 +208,52 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		4808500D245675CC00ADB7C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48B6DEE024552BC400851C9E /* WDConversationModel.h */,
+				48B6DEE124552BC400851C9E /* WDConversationModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4808500E245675D500ADB7C9 /* KeyboardView */ = {
+			isa = PBXGroup;
+			children = (
+				48B6DEE324553BE900851C9E /* WDConversationKeyboardView.h */,
+				48B6DEE424553BE900851C9E /* WDConversationKeyboardView.m */,
+				48B6DEE924556DA000851C9E /* WDConversationKeyboardMoreView.h */,
+				48B6DEEA24556DA000851C9E /* WDConversationKeyboardMoreView.m */,
+				48B6DEE6245557F600851C9E /* WDConversationBoxViewController.h */,
+				48B6DEE7245557F600851C9E /* WDConversationBoxViewController.m */,
+			);
+			path = KeyboardView;
+			sourceTree = "<group>";
+		};
+		4808500F245675E700ADB7C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48B6DED6245528BD00851C9E /* WDConversationMessageTextCell.h */,
+				48B6DED7245528BD00851C9E /* WDConversationMessageTextCell.m */,
+				48B6DED9245528CC00851C9E /* WDConversationMessageImageCell.h */,
+				48B6DEDA245528CC00851C9E /* WDConversationMessageImageCell.m */,
+				48B6DEDC245528D800851C9E /* WDConversationMessageOrderCell.h */,
+				48B6DEDD245528D800851C9E /* WDConversationMessageOrderCell.m */,
+				48B6DED32455200900851C9E /* WDConversationMessageOrderView.h */,
+				48B6DED42455200900851C9E /* WDConversationMessageOrderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48085010245675F100ADB7C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48B6DECC24551C1E00851C9E /* WDConversationViewController.h */,
+				48B6DECD24551C1E00851C9E /* WDConversationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		4887C2132451713300355427 = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +277,7 @@
 			children = (
 				4887C2542451718C00355427 /* HomeViewController.h */,
 				4887C2562451718C00355427 /* HomeViewController.m */,
+				48B6DECF24551DAB00851C9E /* WDConversation */,
 				480405932452B2F80099683B /* WDDropView */,
 				4804058B2452B10B0099683B /* WDComboBoxControl */,
 				48040587245295EA0099683B /* BaseClass */,
@@ -226,6 +301,18 @@
 				48BC1BEA2451761800235EA6 /* PrefixHeader.pch */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48B6DECF24551DAB00851C9E /* WDConversation */ = {
+			isa = PBXGroup;
+			children = (
+				48B6DEDF2455293100851C9E /* WDConversationMessageConstant.h */,
+				48085010245675F100ADB7C9 /* Controller */,
+				4808500E245675D500ADB7C9 /* KeyboardView */,
+				4808500D245675CC00ADB7C9 /* Model */,
+				4808500F245675E700ADB7C9 /* View */,
+			);
+			path = WDConversation;
 			sourceTree = "<group>";
 		};
 		F89C24721589A655D4190139 /* Pods */ = {
@@ -333,20 +420,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48B6DEEB24556DA000851C9E /* WDConversationKeyboardMoreView.m in Sources */,
 				48040586245291690099683B /* WDAlterSheetViewShowViewController.m in Sources */,
+				48B6DEE224552BC400851C9E /* WDConversationModel.m in Sources */,
+				48B6DEDB245528CC00851C9E /* WDConversationMessageImageCell.m in Sources */,
 				4804058A2452B1060099683B /* WDComboBoxControlViewController.m in Sources */,
 				4887C22F2451713400355427 /* main.m in Sources */,
 				4804058E2452B1360099683B /* WDComboBoxControl.m in Sources */,
+				48B6DED8245528BD00851C9E /* WDConversationMessageTextCell.m in Sources */,
 				4887C25B2451718C00355427 /* NavigationController.m in Sources */,
 				4804059D2452BDD00099683B /* WDDropViewTestView.m in Sources */,
 				48BC1BE82451721600235EA6 /* BaseTableViewController.m in Sources */,
+				48B6DED52455200900851C9E /* WDConversationMessageOrderView.m in Sources */,
 				48040581245290C80099683B /* WDAlterSheetView.m in Sources */,
 				4887C25C2451718C00355427 /* BaseViewController.m in Sources */,
+				48B6DEE8245557F600851C9E /* WDConversationBoxViewController.m in Sources */,
+				48B6DEE524553BE900851C9E /* WDConversationKeyboardView.m in Sources */,
 				4887C2212451713300355427 /* AppDelegate.m in Sources */,
+				48B6DEDE245528D800851C9E /* WDConversationMessageOrderCell.m in Sources */,
 				480405922452B2EF0099683B /* WDDropViewViewController.m in Sources */,
 				480405962452B3040099683B /* WDDropView.m in Sources */,
 				48E6D222245185F2006A8AB8 /* WDPopMenu.m in Sources */,
 				4887C25A2451718C00355427 /* HomeViewController.m in Sources */,
+				48B6DECE24551C1E00851C9E /* WDConversationViewController.m in Sources */,
 				4804057E24527D240099683B /* WDPopMenuShowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

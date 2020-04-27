@@ -3,12 +3,16 @@ PODS:
   - Masonry (1.1.0)
   - MLeaksFinder (1.0.0):
     - FBRetainCycleDetector
+  - SDWebImage (5.7.3):
+    - SDWebImage/Core (= 5.7.3)
+  - SDWebImage/Core (5.7.3)
   - WDProjectConfig (2.0.1)
 
 DEPENDENCIES:
   - FBRetainCycleDetector
   - Masonry
   - MLeaksFinder
+  - SDWebImage
   - WDProjectConfig
 
 SPEC REPOS:
@@ -16,14 +20,16 @@ SPEC REPOS:
     - FBRetainCycleDetector
     - Masonry
     - MLeaksFinder
+    - SDWebImage
     - WDProjectConfig
 
 SPEC CHECKSUMS:
   FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
+  SDWebImage: 97351f6582ceca541ea294ba66a1fcb342a331c2
   WDProjectConfig: 69f9d6dd38523142ffa97901deeef1df714bed54
 
-PODFILE CHECKSUM: 7f260f57d93235ca312a04cbf820e436ba5f7d5e
+PODFILE CHECKSUM: 607228c28c48e21f3e19e5fec550b734605b9daf
 
 COCOAPODS: 1.9.1

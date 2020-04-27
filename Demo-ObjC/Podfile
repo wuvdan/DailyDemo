@@ -4,7 +4,7 @@ target 'Demo-ObjC' do
   pod 'Masonry'
   
   pod 'WDProjectConfig'
-
+  pod 'SDWebImage'
   # 工具
   pod 'MLeaksFinder'
   pod 'FBRetainCycleDetector'
