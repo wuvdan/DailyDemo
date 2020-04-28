@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "NavigationController.h"
 #import "HomeViewController.h"
-
+#import "WDUserTakeScreenShotView.h"
 @interface AppDelegate ()
 
 @end
@@ -26,9 +26,24 @@
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     
+    [self addObserver];
+    
     return YES;
 }
 
+- (void)addObserver {
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(observerTakeScreenshotNotification:)
+                                                 name:UIApplicationUserDidTakeScreenshotNotification
+                                               object:nil];
+}
+
+- (void)observerTakeScreenshotNotification:(NSNotification *)notification {
+    NSLog(@"检测到截屏");
+    [WDUserTakeScreenShotView showView:^(UIImage * _Nonnull image) {
+        
+    }];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

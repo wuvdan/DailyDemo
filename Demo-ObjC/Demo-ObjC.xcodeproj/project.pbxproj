@@ -15,6 +15,12 @@
 		480405922452B2EF0099683B /* WDDropViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480405912452B2EF0099683B /* WDDropViewViewController.m */; };
 		480405962452B3040099683B /* WDDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 480405952452B3040099683B /* WDDropView.m */; };
 		4804059D2452BDD00099683B /* WDDropViewTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4804059C2452BDD00099683B /* WDDropViewTestView.m */; };
+		48208B3E2457C991007AEF76 /* WDUserTakeScreenShotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48208B3D2457C991007AEF76 /* WDUserTakeScreenShotView.m */; };
+		48208B422457D311007AEF76 /* WDQesutionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48208B412457D311007AEF76 /* WDQesutionViewController.m */; };
+		48208B462457D40F007AEF76 /* WDSelfFeedBackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48208B452457D40F007AEF76 /* WDSelfFeedBackTableViewCell.m */; };
+		48208B492457D446007AEF76 /* WDCommonQuestionListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48208B482457D446007AEF76 /* WDCommonQuestionListTableViewCell.m */; };
+		48208B4C2457D556007AEF76 /* WDQuestionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48208B4B2457D556007AEF76 /* WDQuestionButton.m */; };
+		48208B4F2457D86F007AEF76 /* WDQuestionListButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48208B4E2457D86F007AEF76 /* WDQuestionListButton.m */; };
 		4887C2212451713300355427 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4887C2202451713300355427 /* AppDelegate.m */; };
 		4887C2272451713300355427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4887C2252451713300355427 /* Main.storyboard */; };
 		4887C2292451713400355427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4887C2282451713400355427 /* Assets.xcassets */; };
@@ -56,6 +62,18 @@
 		480405952452B3040099683B /* WDDropView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDDropView.m; sourceTree = "<group>"; };
 		4804059B2452BDD00099683B /* WDDropViewTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDDropViewTestView.h; sourceTree = "<group>"; };
 		4804059C2452BDD00099683B /* WDDropViewTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDDropViewTestView.m; sourceTree = "<group>"; };
+		48208B3C2457C991007AEF76 /* WDUserTakeScreenShotView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDUserTakeScreenShotView.h; sourceTree = "<group>"; };
+		48208B3D2457C991007AEF76 /* WDUserTakeScreenShotView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDUserTakeScreenShotView.m; sourceTree = "<group>"; };
+		48208B402457D311007AEF76 /* WDQesutionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDQesutionViewController.h; sourceTree = "<group>"; };
+		48208B412457D311007AEF76 /* WDQesutionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDQesutionViewController.m; sourceTree = "<group>"; };
+		48208B442457D40F007AEF76 /* WDSelfFeedBackTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDSelfFeedBackTableViewCell.h; sourceTree = "<group>"; };
+		48208B452457D40F007AEF76 /* WDSelfFeedBackTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDSelfFeedBackTableViewCell.m; sourceTree = "<group>"; };
+		48208B472457D446007AEF76 /* WDCommonQuestionListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDCommonQuestionListTableViewCell.h; sourceTree = "<group>"; };
+		48208B482457D446007AEF76 /* WDCommonQuestionListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDCommonQuestionListTableViewCell.m; sourceTree = "<group>"; };
+		48208B4A2457D556007AEF76 /* WDQuestionButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDQuestionButton.h; sourceTree = "<group>"; };
+		48208B4B2457D556007AEF76 /* WDQuestionButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDQuestionButton.m; sourceTree = "<group>"; };
+		48208B4D2457D86F007AEF76 /* WDQuestionListButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDQuestionListButton.h; sourceTree = "<group>"; };
+		48208B4E2457D86F007AEF76 /* WDQuestionListButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDQuestionListButton.m; sourceTree = "<group>"; };
 		4887C21C2451713300355427 /* Demo-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4887C21F2451713300355427 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4887C2202451713300355427 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -254,6 +272,32 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		48208B3F2457D2F5007AEF76 /* WDUserTakeScreenShotView */ = {
+			isa = PBXGroup;
+			children = (
+				48208B3C2457C991007AEF76 /* WDUserTakeScreenShotView.h */,
+				48208B3D2457C991007AEF76 /* WDUserTakeScreenShotView.m */,
+			);
+			path = WDUserTakeScreenShotView;
+			sourceTree = "<group>";
+		};
+		48208B432457D3E8007AEF76 /* WDQesutionBack */ = {
+			isa = PBXGroup;
+			children = (
+				48208B402457D311007AEF76 /* WDQesutionViewController.h */,
+				48208B412457D311007AEF76 /* WDQesutionViewController.m */,
+				48208B442457D40F007AEF76 /* WDSelfFeedBackTableViewCell.h */,
+				48208B452457D40F007AEF76 /* WDSelfFeedBackTableViewCell.m */,
+				48208B472457D446007AEF76 /* WDCommonQuestionListTableViewCell.h */,
+				48208B482457D446007AEF76 /* WDCommonQuestionListTableViewCell.m */,
+				48208B4A2457D556007AEF76 /* WDQuestionButton.h */,
+				48208B4B2457D556007AEF76 /* WDQuestionButton.m */,
+				48208B4D2457D86F007AEF76 /* WDQuestionListButton.h */,
+				48208B4E2457D86F007AEF76 /* WDQuestionListButton.m */,
+			);
+			path = WDQesutionBack;
+			sourceTree = "<group>";
+		};
 		4887C2132451713300355427 = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +321,8 @@
 			children = (
 				4887C2542451718C00355427 /* HomeViewController.h */,
 				4887C2562451718C00355427 /* HomeViewController.m */,
+				48208B432457D3E8007AEF76 /* WDQesutionBack */,
+				48208B3F2457D2F5007AEF76 /* WDUserTakeScreenShotView */,
 				48B6DECF24551DAB00851C9E /* WDConversation */,
 				480405932452B2F80099683B /* WDDropView */,
 				4804058B2452B10B0099683B /* WDComboBoxControl */,
@@ -422,7 +468,9 @@
 			files = (
 				48B6DEEB24556DA000851C9E /* WDConversationKeyboardMoreView.m in Sources */,
 				48040586245291690099683B /* WDAlterSheetViewShowViewController.m in Sources */,
+				48208B3E2457C991007AEF76 /* WDUserTakeScreenShotView.m in Sources */,
 				48B6DEE224552BC400851C9E /* WDConversationModel.m in Sources */,
+				48208B4C2457D556007AEF76 /* WDQuestionButton.m in Sources */,
 				48B6DEDB245528CC00851C9E /* WDConversationMessageImageCell.m in Sources */,
 				4804058A2452B1060099683B /* WDComboBoxControlViewController.m in Sources */,
 				4887C22F2451713400355427 /* main.m in Sources */,
@@ -430,11 +478,15 @@
 				48B6DED8245528BD00851C9E /* WDConversationMessageTextCell.m in Sources */,
 				4887C25B2451718C00355427 /* NavigationController.m in Sources */,
 				4804059D2452BDD00099683B /* WDDropViewTestView.m in Sources */,
+				48208B422457D311007AEF76 /* WDQesutionViewController.m in Sources */,
 				48BC1BE82451721600235EA6 /* BaseTableViewController.m in Sources */,
+				48208B492457D446007AEF76 /* WDCommonQuestionListTableViewCell.m in Sources */,
 				48B6DED52455200900851C9E /* WDConversationMessageOrderView.m in Sources */,
 				48040581245290C80099683B /* WDAlterSheetView.m in Sources */,
 				4887C25C2451718C00355427 /* BaseViewController.m in Sources */,
+				48208B4F2457D86F007AEF76 /* WDQuestionListButton.m in Sources */,
 				48B6DEE8245557F600851C9E /* WDConversationBoxViewController.m in Sources */,
+				48208B462457D40F007AEF76 /* WDSelfFeedBackTableViewCell.m in Sources */,
 				48B6DEE524553BE900851C9E /* WDConversationKeyboardView.m in Sources */,
 				4887C2212451713300355427 /* AppDelegate.m in Sources */,
 				48B6DEDE245528D800851C9E /* WDConversationMessageOrderCell.m in Sources */,
