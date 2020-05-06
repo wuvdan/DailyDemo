@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view addSubview:self.tableView];
 }
 
 #pragma mark - UITableView DataSource Methods

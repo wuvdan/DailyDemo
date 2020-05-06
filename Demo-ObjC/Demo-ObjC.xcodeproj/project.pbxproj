@@ -29,6 +29,10 @@
 		4887C25A2451718C00355427 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4887C2562451718C00355427 /* HomeViewController.m */; };
 		4887C25B2451718C00355427 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4887C2572451718C00355427 /* NavigationController.m */; };
 		4887C25C2451718C00355427 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4887C2592451718C00355427 /* BaseViewController.m */; };
+		489226C124624C41003DFCBC /* SplitDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489226C024624C41003DFCBC /* SplitDemoViewController.m */; };
+		489226C524624C9E003DFCBC /* SplitMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489226C424624C9E003DFCBC /* SplitMasterViewController.m */; };
+		489226C824624CB5003DFCBC /* SplitContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489226C724624CB5003DFCBC /* SplitContentViewController.m */; };
+		489226CB24624E1B003DFCBC /* SplitOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489226CA24624E1B003DFCBC /* SplitOtherViewController.m */; };
 		48B6DECE24551C1E00851C9E /* WDConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B6DECD24551C1E00851C9E /* WDConversationViewController.m */; };
 		48B6DED52455200900851C9E /* WDConversationMessageOrderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B6DED42455200900851C9E /* WDConversationMessageOrderView.m */; };
 		48B6DED8245528BD00851C9E /* WDConversationMessageTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B6DED7245528BD00851C9E /* WDConversationMessageTextCell.m */; };
@@ -88,6 +92,14 @@
 		4887C2572451718C00355427 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		4887C2582451718C00355427 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		4887C2592451718C00355427 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		489226BF24624C41003DFCBC /* SplitDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplitDemoViewController.h; sourceTree = "<group>"; };
+		489226C024624C41003DFCBC /* SplitDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitDemoViewController.m; sourceTree = "<group>"; };
+		489226C324624C9E003DFCBC /* SplitMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplitMasterViewController.h; sourceTree = "<group>"; };
+		489226C424624C9E003DFCBC /* SplitMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitMasterViewController.m; sourceTree = "<group>"; };
+		489226C624624CB5003DFCBC /* SplitContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplitContentViewController.h; sourceTree = "<group>"; };
+		489226C724624CB5003DFCBC /* SplitContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitContentViewController.m; sourceTree = "<group>"; };
+		489226C924624E1B003DFCBC /* SplitOtherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplitOtherViewController.h; sourceTree = "<group>"; };
+		489226CA24624E1B003DFCBC /* SplitOtherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitOtherViewController.m; sourceTree = "<group>"; };
 		48B6DECC24551C1E00851C9E /* WDConversationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDConversationViewController.h; sourceTree = "<group>"; };
 		48B6DECD24551C1E00851C9E /* WDConversationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDConversationViewController.m; sourceTree = "<group>"; };
 		48B6DED32455200900851C9E /* WDConversationMessageOrderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDConversationMessageOrderView.h; sourceTree = "<group>"; };
@@ -321,6 +333,7 @@
 			children = (
 				4887C2542451718C00355427 /* HomeViewController.h */,
 				4887C2562451718C00355427 /* HomeViewController.m */,
+				489226C224624C7B003DFCBC /* SplitViewController */,
 				48208B432457D3E8007AEF76 /* WDQesutionBack */,
 				48208B3F2457D2F5007AEF76 /* WDUserTakeScreenShotView */,
 				48B6DECF24551DAB00851C9E /* WDConversation */,
@@ -347,6 +360,21 @@
 				48BC1BEA2451761800235EA6 /* PrefixHeader.pch */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		489226C224624C7B003DFCBC /* SplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				489226BF24624C41003DFCBC /* SplitDemoViewController.h */,
+				489226C024624C41003DFCBC /* SplitDemoViewController.m */,
+				489226C324624C9E003DFCBC /* SplitMasterViewController.h */,
+				489226C424624C9E003DFCBC /* SplitMasterViewController.m */,
+				489226C924624E1B003DFCBC /* SplitOtherViewController.h */,
+				489226CA24624E1B003DFCBC /* SplitOtherViewController.m */,
+				489226C624624CB5003DFCBC /* SplitContentViewController.h */,
+				489226C724624CB5003DFCBC /* SplitContentViewController.m */,
+			);
+			name = SplitViewController;
 			sourceTree = "<group>";
 		};
 		48B6DECF24551DAB00851C9E /* WDConversation */ = {
@@ -470,7 +498,9 @@
 				48040586245291690099683B /* WDAlterSheetViewShowViewController.m in Sources */,
 				48208B3E2457C991007AEF76 /* WDUserTakeScreenShotView.m in Sources */,
 				48B6DEE224552BC400851C9E /* WDConversationModel.m in Sources */,
+				489226C824624CB5003DFCBC /* SplitContentViewController.m in Sources */,
 				48208B4C2457D556007AEF76 /* WDQuestionButton.m in Sources */,
+				489226CB24624E1B003DFCBC /* SplitOtherViewController.m in Sources */,
 				48B6DEDB245528CC00851C9E /* WDConversationMessageImageCell.m in Sources */,
 				4804058A2452B1060099683B /* WDComboBoxControlViewController.m in Sources */,
 				4887C22F2451713400355427 /* main.m in Sources */,
@@ -478,6 +508,8 @@
 				48B6DED8245528BD00851C9E /* WDConversationMessageTextCell.m in Sources */,
 				4887C25B2451718C00355427 /* NavigationController.m in Sources */,
 				4804059D2452BDD00099683B /* WDDropViewTestView.m in Sources */,
+				489226C124624C41003DFCBC /* SplitDemoViewController.m in Sources */,
+				489226C524624C9E003DFCBC /* SplitMasterViewController.m in Sources */,
 				48208B422457D311007AEF76 /* WDQesutionViewController.m in Sources */,
 				48BC1BE82451721600235EA6 /* BaseTableViewController.m in Sources */,
 				48208B492457D446007AEF76 /* WDCommonQuestionListTableViewCell.m in Sources */,
